@@ -1,0 +1,36 @@
+.main {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logindiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 3rem;
+    
+}
+.passwordicon {
+    position: relative;
+}
+
+.logindiv input {
+    margin: 8px;
+    border-radius: 8px;
+    padding: 1rem 3rem 1rem 8px;
+    font-size: 22px;
+}
+.logindiv button {
+    padding: 1rem 3rem;
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    border-radius: 7px;
+}
+.iconclass {
+    position: absolute;
+    font-size: 32px;
+    bottom : 23px;
+    right: 20px;
+}
